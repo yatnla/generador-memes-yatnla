@@ -5,20 +5,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
 
-    <link rel="shortcut icon" type=""> // favicon
+    <link rel="shortcut icon" type="image/png" href="/assets/icon/meme-generator-icon.ico"> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/b67621f62e.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    
+
     <title> Generador de Memes </title>
+
 </head>
 <body>
-    
+
+    <header>
+        <h1 class="title-meme-generator"> Generador de Memes </h1>
+        <nav>
+            <ul class="nav-generator">
+                <li class="nav-list"> 
+                    <i class="fa-solid fa-file-image"></i> Imagen 
+                </li>
+                <li class="nav-list">
+                    <i class="fa-solid fa-font"></i> Texto 
+                </li>
+                <li class="nav-list"> 
+                    <i class="fa-solid fa-moon"></i> Modo oscuro 
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="meme-section">
+            <div class="meme-container">
+                <p class="top-txt-meme"> 
+                    TOP TEXT 
+                </p>
+                <div class="img-meme-container">
+
+                </div>
+                <p class="bottom-txt-meme">
+                    BOTTOM TEXT
+                </p>
+            </div>
+            <button class="download-button">
+                <i class="fa-solid fa-download"></i>
+                Descargar Meme
+            </button>
+        </section>
+    </main>
+
+    <aside class="img-section">
+        <button class="close-button"> <i class="fa-solid fa-xmark"></i> </button>
+        <h2> IMAGEN </h2>
+        <form class="img-section-form">
+
+            <label for="url"> URL 
+                <input type="text" id="url" name="url">
+            </label>
+
+            <label for="fondo"> FONDO 
+                <div class="background-color-container">
+                    <label>
+                        <input type="color" id="fondo" name="fondo" value="#FFFFFF">
+                        <span class="input-value">#FFFFFF</span>
+                    </label>
+                    <select name="fondo" id="fondo">
+                        <option value="unset" selected> Ninguno </option>
+                        <option value="lighten"> Aclarar </option>
+                        <option value="darken"> Oscurecer </option>
+                        <option value="difference"> Diferencia </option>
+                        <option value="luminosity"> Luminosidad </option>
+                        <option value="multiply"> Multiplicar </option>
+                    </select>
+                </div>
+            </label>
+
+            <h3> FILTROS </h3>
+            <div class="filter-container">
+                <label for="brightness"> BRILLO
+                    <input type="range" name="brightness" id="brightness" min="0" max="1" step="0.1" value="1">
+                </label>
+                <label for="opacity"> OPACIDAD
+                    <input type="range" name="opacity" id="opacity" min="0" max="1" step="0.1" value="1">
+                </label>
+                <label for="contrast"> CONTRASTE
+                    <input type="range" name="contrast" id="contrast" min="100" max="1000" step="1%" value="100">
+                </label>
+                <label for="blur"> DESENFOQUE
+                    <input type="range" name="blur" id="blur" min="0" max="10" step="0.1" value="0">
+                </label>
+                <label for="grayscale"> ESCALA DE GRISES
+                    <input type="range" name="grayscale" id="grayscale" min="0" max="100" step="1" value="0">
+                </label>
+                <label for="sepia"> SEPIA
+                    <input type="range" name="sepia" id="sepia" min="0" max="100" step="1" value="0">
+                </label>
+                <label for="hue-rotation"> HUE
+                    <input type="range" name="hue-rotation" id="hue-rotation" min="0" max="359" step="1" value="0">
+                </label>
+                <label for="saturation"> SATURADO
+                    <input type="range" name="saturation" id="saturation" min="100" max="1000" step="10" value="100">
+                </label>
+                <label for="invert"> NEGATIVO
+                    <input type="range" name="invert" id="invert" min="0" max="1" step="0.1" value="1">
+                </label>
+            </div>
+        </form>
+        <button class="reset-button"> Reestablecer filtros </button>
+    </aside>
+
+    <aside class="txt-section">
+        <button class="close-button"> <i class="fa-solid fa-xmark"></i> </button>
+        <h2> TEXTO </h2>
+        <form class="txt-section-form">
+
+            <div class="top-txt-container">
+                <label for="top-txt"> SUPERIOR
+                    <input type="text" name="top-txt" id="top-txt" value="TOP TEXT">
+                </label>
+                <label for="top-txt-check">
+                    <input type="checkbox" name="top-txt-check" id="top-txt-check"> Sin texto superior
+                </label>
+            </div>
+
+            <div class="bottom-txt-container">
+                <label for="bottom-txt"> INFERIOR
+                    <input type="text" name="bottom-txt" id="bottom-txt" value="TOP TEXT">
+                </label>
+                <label for="bottom-txt-check">
+                    <input type="checkbox" name="bottom-txt-check" id="bottom-txt-check"> Sin texto inferior
+                </label>
+            </div>
+
+            <label for="font"> FUENTE
+                <select name="font" id="font">
+                    <option value="arial"> Arial </option>
+                    <option value="arial-black">Arial Black</option>
+                    <option value="american-typewriter">American Typewriter</option>
+                    <option value="andale-,mono">Andale Mono</option>
+                    <option value="comic-sans-ms">Comic Sans MS</option>
+                    <option value="helvetica">Helvetica</option>
+                    <option value="impact" selected>Impact</option>
+                    <option value="verdana">Verdana</option>
+                    <option value="times-new-roman">Times New Roman</option>
+                </select>
+            </label>
+
+            <div class="font-txt-container">
+                <label for="font-size">
+                    <input type="number" name="font-size" id="font-size" value="35">
+                </label>
+                <label for="align" class="align-txt-container">
+                    <button type="button" class="button-align" id="left-align">
+                        <i class="fas fa-align-left"></i>
+                    </button>
+                    <button type="button" class="button-align" id="center-align">
+                        <i class="fas fa-align-center">
+                        </i>
+                    </button>
+                    <button type="button" class="button-align" id="right-align">
+                        <i class="fas fa-align-right"></i>
+                    </button>
+                </label>
+            </div>
+
+            <div class="custom-txt-container">
+                <div class="color-txt-container">
+                    <label for="color-txt"> COLOR
+                        <input type="color" id="color-txt" name="color-txt" value="#000000">
+                        <span class="input-value">#000000</span>
+                    </label>
+                </div>
+                <div class="bg-txt-container">
+                    <label for="bg-color-txt"> FONDO
+                        <input type="color" id="bg-color-txt" name="bg-color-txt" value="#FFFFFF">
+                        <span class="input-value">#FFFFFF</span>
+                    </label>
+                    <label for="bg-transparent-check">
+                        <input type="checkbox" name="bg-transparent-check" id="bg-transparent-check"> Fondo transparente
+                    </label>
+                </div>
+            </div>
+
+            <label for="outline" class="outline-txt-container">
+                <button type="button" class="button-outline" id="none-outline">
+                    Ninguno
+                </button>
+                <button type="button" class="button-outline" id="white-outline">
+                    Claro
+                </button>
+                <button type="button" class="button-outline" id="black-outline">
+                    Oscuro
+                </button>
+            </label>
+
+            <label for="padding">
+                <input type="number" name="padding" id="padding" value="0">
+            </label>
+
+            <label for="line-spacing">INTERLINEADO
+                <select name="line-spacing" id="line-spacing">
+                    <option value="0.8">0.8</option>
+                    <option value="1">1</option>
+                    <option value="1.2" selected>1.2</option>
+                    <option value="1.5">1.5</option>
+                    <option value="2">2</option>
+                    <option value="2.5">2.5</option>
+                </select>
+            </label>
+            
+        </form>
+    </aside>
 </body>
 </html>
