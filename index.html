@@ -60,21 +60,23 @@
     </main>
 
     <aside class="img-section">
-        <button class="close-button"> <i class="fa-solid fa-xmark"></i> </button>
-        <h2> IMAGEN </h2>
+        <button class="close-button" id="close-button"> <i class="fa-solid fa-xmark"></i> </button>
+        <h2 class="title-section"> IMAGEN </h2>
         <form class="img-section-form">
 
-            <label for="url"> URL 
+            <label for="url" class="url"> URL 
                 <input type="text" id="url" name="url">
             </label>
 
-            <label for="fondo"> FONDO 
-                <div class="background-color-container">
-                    <label>
-                        <input type="color" id="fondo" name="fondo" value="#FFFFFF">
-                        <span class="input-value">#FFFFFF</span>
-                    </label>
-                    <select name="fondo" id="fondo">
+            <div class="bg">
+                <h3 class="bg-title"> FONDO </h3>
+
+                <div class="bg-color-container">
+                    <div class="bg-color">
+                        <input type="color" id="bg-color" value="#FFFFFF">
+                        <span class="bg-color-value">#FFFFFF</span>
+                    </div>
+                    <select name="fondo" id="fondo" class="bg-select">
                         <option value="unset" selected> Ninguno </option>
                         <option value="lighten"> Aclarar </option>
                         <option value="darken"> Oscurecer </option>
@@ -83,45 +85,48 @@
                         <option value="multiply"> Multiplicar </option>
                     </select>
                 </div>
-            </label>
 
-            <h3> FILTROS </h3>
-            <div class="filter-container">
-                <label for="brightness"> BRILLO
-                    <input type="range" name="brightness" id="brightness" min="0" max="1" step="0.1" value="1">
-                </label>
-                <label for="opacity"> OPACIDAD
-                    <input type="range" name="opacity" id="opacity" min="0" max="1" step="0.1" value="1">
-                </label>
-                <label for="contrast"> CONTRASTE
-                    <input type="range" name="contrast" id="contrast" min="100" max="1000" step="1%" value="100">
-                </label>
-                <label for="blur"> DESENFOQUE
-                    <input type="range" name="blur" id="blur" min="0" max="10" step="0.1" value="0">
-                </label>
-                <label for="grayscale"> ESCALA DE GRISES
-                    <input type="range" name="grayscale" id="grayscale" min="0" max="100" step="1" value="0">
-                </label>
-                <label for="sepia"> SEPIA
-                    <input type="range" name="sepia" id="sepia" min="0" max="100" step="1" value="0">
-                </label>
-                <label for="hue-rotation"> HUE
-                    <input type="range" name="hue-rotation" id="hue-rotation" min="0" max="359" step="1" value="0">
-                </label>
-                <label for="saturation"> SATURADO
-                    <input type="range" name="saturation" id="saturation" min="100" max="1000" step="10" value="100">
-                </label>
-                <label for="invert"> NEGATIVO
-                    <input type="range" name="invert" id="invert" min="0" max="1" step="0.1" value="1">
-                </label>
             </div>
+
+            <div class="filter-container">
+                <h3 class="filter-title"> FILTROS </h3>
+                <div class="filter-range-container">
+                    <label for="brightness"> BRILLO
+                        <input type="range" name="brightness" id="brightness" min="0" max="1" step="0.1" value="1">
+                    </label>
+                    <label for="opacity"> OPACIDAD
+                        <input type="range" name="opacity" id="opacity" min="0" max="1" step="0.1" value="1">
+                    </label>
+                    <label for="contrast"> CONTRASTE
+                        <input type="range" name="contrast" id="contrast" min="100" max="1000" step="1%" value="100">
+                    </label>
+                    <label for="blur"> DESENFOQUE
+                        <input type="range" name="blur" id="blur" min="0" max="10" step="0.1" value="0">
+                    </label>
+                    <label for="grayscale"> ESCALA DE GRISES
+                        <input type="range" name="grayscale" id="grayscale" min="0" max="100" step="1" value="0">
+                    </label>
+                    <label for="sepia"> SEPIA
+                        <input type="range" name="sepia" id="sepia" min="0" max="100" step="1" value="0">
+                    </label>
+                    <label for="hue-rotation"> HUE
+                        <input type="range" name="hue-rotation" id="hue-rotation" min="0" max="359" step="1" value="0">
+                    </label>
+                    <label for="saturation"> SATURADO
+                        <input type="range" name="saturation" id="saturation" min="100" max="1000" step="10" value="100">
+                    </label>
+                    <label for="invert"> NEGATIVO
+                        <input type="range" name="invert" id="invert" min="0" max="1" step="0.1" value="1">
+                    </label>
+                </div>
+            </div>
+            <button class="reset-button"> Reestablecer filtros </button>
         </form>
-        <button class="reset-button"> Reestablecer filtros </button>
     </aside>
 
     <aside class="txt-section">
         <button class="close-button"> <i class="fa-solid fa-xmark"></i> </button>
-        <h2> TEXTO </h2>
+        <h2 class="title-section"> TEXTO </h2>
         <form class="txt-section-form">
 
             <div class="top-txt-container">
