@@ -26,10 +26,10 @@
         <h1 class="title-meme-generator"> Generador de Memes </h1>
         <nav>
             <ul class="nav-generator">
-                <li class="nav-list"> 
+                <li class="nav-list" id="img-button"> 
                     <i class="fa-solid fa-file-image"></i> Imagen 
                 </li>
-                <li class="nav-list">
+                <li class="nav-list" id="txt-button">
                     <i class="fa-solid fa-font"></i> Texto 
                 </li>
                 <li class="nav-list"> 
@@ -59,7 +59,7 @@
         </section>
     </main>
 
-    <aside class="img-section">
+    <aside class="img-section" id="img-section">
         <button class="close-button" id="close-button"> <i class="fa-solid fa-xmark"></i> </button>
         <h2 class="title-section"> IMAGEN </h2>
         <form class="img-section-form">
@@ -124,30 +124,30 @@
         </form>
     </aside>
 
-    <aside class="txt-section">
+    <aside class="txt-section" id="txt-section">
         <button class="close-button"> <i class="fa-solid fa-xmark"></i> </button>
         <h2 class="title-section"> TEXTO </h2>
         <form class="txt-section-form">
 
             <div class="top-txt-container">
-                <label for="top-txt"> SUPERIOR
+                <label for="top-txt" class="top-txt"> SUPERIOR
                     <input type="text" name="top-txt" id="top-txt" value="TOP TEXT">
                 </label>
-                <label for="top-txt-check">
+                <label for="top-txt-check" class="top-txt-check">
                     <input type="checkbox" name="top-txt-check" id="top-txt-check"> Sin texto superior
                 </label>
             </div>
 
             <div class="bottom-txt-container">
-                <label for="bottom-txt"> INFERIOR
-                    <input type="text" name="bottom-txt" id="bottom-txt" value="TOP TEXT">
+                <label for="bottom-txt" class="bottom-txt"> INFERIOR
+                    <input type="text" name="bottom-txt" id="bottom-txt" value="BOTTOM TEXT">
                 </label>
-                <label for="bottom-txt-check">
+                <label for="bottom-txt-check" class="bottom-txt-check">
                     <input type="checkbox" name="bottom-txt-check" id="bottom-txt-check"> Sin texto inferior
                 </label>
             </div>
 
-            <label for="font"> FUENTE
+            <label for="font" class="font"> FUENTE
                 <select name="font" id="font">
                     <option value="arial"> Arial </option>
                     <option value="arial-black">Arial Black</option>
@@ -181,35 +181,39 @@
 
             <div class="custom-txt-container">
                 <div class="color-txt-container">
-                    <label for="color-txt"> COLOR
+                    <h4> COLOR </h4>
+                    <label for="color-txt"> 
                         <input type="color" id="color-txt" name="color-txt" value="#000000">
-                        <span class="input-value">#000000</span>
+                        <span class="color-txt-value">#000000</span>
                     </label>
                 </div>
                 <div class="bg-txt-container">
-                    <label for="bg-color-txt"> FONDO
+                    <h4> FONDO </h4>
+                    <label for="bg-color-txt">
                         <input type="color" id="bg-color-txt" name="bg-color-txt" value="#FFFFFF">
-                        <span class="input-value">#FFFFFF</span>
-                    </label>
-                    <label for="bg-transparent-check">
-                        <input type="checkbox" name="bg-transparent-check" id="bg-transparent-check"> Fondo transparente
+                        <span class="bg-color-txt-value">#FFFFFF</span>
                     </label>
                 </div>
             </div>
-
-            <label for="outline" class="outline-txt-container">
-                <button type="button" class="button-outline" id="none-outline">
-                    Ninguno
-                </button>
-                <button type="button" class="button-outline" id="white-outline">
-                    Claro
-                </button>
-                <button type="button" class="button-outline" id="black-outline">
-                    Oscuro
-                </button>
+            <label for="bg-transparent-check">
+                <input type="checkbox" name="bg-transparent-check" id="bg-transparent-check" class="bg-transparent-check"> Fondo transparente
             </label>
 
-            <label for="padding">
+            <label for="outline"> CONTORNO
+                <div class="outline-txt-container">
+                    <button type="button" class="button-outline" id="none-outline">
+                        Ninguno
+                    </button>
+                    <button type="button" class="button-outline" id="white-outline">
+                        Claro
+                    </button>
+                    <button type="button" class="button-outline" id="black-outline">
+                        Oscuro
+                    </button>
+                </div>
+            </label>
+
+            <label for="padding"> ESPACIADO
                 <input type="number" name="padding" id="padding" value="0">
             </label>
 
@@ -226,5 +230,8 @@
             
         </form>
     </aside>
+
+<script src="/js/app.js"> </script>
+
 </body>
 </html>

@@ -70,6 +70,7 @@ nav {
     font-family: var(--font2);
     font-size: 1rem;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .meme-section {
@@ -298,8 +299,206 @@ input[type=range]::-webkit-slider-thumb{
     transition: all 0.2s ease-in-out;  
 }
 
+.txt-section {
+    width: 20rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    background-color: rgba(33, 33, 33, 0.7);
+    color: var(--color1);
+    overflow-y: auto;
+}
 
+.txt-section-form {
+    padding: 1.7rem;
+    font-family: var(--font2);
+}
 
+.top-txt-container, .bottom-txt-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 1.3rem;
+}
+
+.top-txt, .bottom-txt {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+label[for="top-txt"] > input[type="text"] {
+    margin-top: 8px;
+    width: 100%;
+    font-family: var(--font2);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+label[for="bottom-txt"] > input[type="text"] {
+    margin-top: 8px;
+    width: 100%;
+    font-family: var(--font2);
+    font-weight: 200;
+    font-size: 12px;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--color4);
+    cursor: pointer;
+}
+
+.top-txt-check, .bottom-txt-check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 100;
+    font-size: 12px;
+    gap: 7px;
+}
+
+.font {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.font select {
+    width: 100%;
+    font-size: 12px;
+    font-family: var(--font2);
+    font-weight: 200;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding-left: 9px;
+    cursor: pointer;
+}
+
+.font-txt-container {
+    margin-top: 5px;
+    width: 100%;
+    display: inline-block;
+}
+
+label[for="font-size"] > input[type="number"] {
+    font-size: 12px;
+    font-family: var(--font2);
+    font-weight: 200;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding-left: 14px;
+    width: calc(50%);
+}
+
+.align-txt-container {
+    margin-left: 20px;
+}
+
+.button-align {
+    height: 2.1rem;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--color4);
+}
+
+.custom-txt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1.3rem;
+}
+
+.color-txt-container, .bg-txt-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+label[for="color-txt"], label[for="bg-color-txt"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color1);
+    height: 2.1rem;
+    border-radius: 5px;
+    padding: 9px;
+} 
+
+.color-txt-value, .bg-color-txt-value {
+    color: var(--color4);
+    font-size: 12px;
+    font-weight: 300;
+    font-family: var(--font2);
+    margin: 0 5px 0 5px;
+}
+
+label[for="bg-transparent-check"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 7px;
+    gap: 7px;
+}
+
+label[for="outline"], label[for="line-spacing"], label[for="padding"] {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 1.3rem;
+}
+
+.outline-txt-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.button-outline {
+    background-color: var(--color1);
+    height: 2.1rem;
+    border-radius: 5px;
+    padding: 9px;
+    width: 30%;
+    font-family: var(--font2);
+    font-weight: 300;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+label[for="padding"] > input[type="number"] {
+    margin-top: 8px;
+    font-family: var(--font2);
+    color: var(--color4);
+    font-size: 12px;
+    font-weight: 300;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+label[for="line-spacing"] > select {
+    margin-top: 8px;
+    font-family: var(--font2);
+    color: var(--color4);
+    font-size: 12px;
+    font-weight: 300;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding: 9px;
+}
 
 
 
