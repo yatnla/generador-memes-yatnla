@@ -98,9 +98,15 @@ nav {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.img-meme-container {
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .download-button {
     margin-top: 1.4rem;
-    color: var(--color4);
     padding: 0.7em 1.7em;
     cursor: pointer;
     font-family: var(--font1);
@@ -109,16 +115,18 @@ nav {
     font-size: 1.1rem;
     font-weight: 400;
     border-radius: 0.5em;
-    background: var(--color2);
-    border: 1px solid var(--color2);
+    color: var(--color1);
+    background-color: var(--color4);
+    border: 1px solid var(--color4);
     box-shadow: 1px 1px 2px #c5c5c5, -1px -1px 2px var(--color2);
+    margin-bottom: 3rem;
 }
 
 .download-button:hover{
-    background-color: var(--color4);
-    color: var(--color1);
-    border: 1px solid var(--color4);
-    transition: all 0.2s ease-in-out;  
+    color: var(--color4);
+    background: var(--color2);
+    border: 1px solid var(--color2);
+    transition: all 0.3s ease-in-out;  
 }
 
 .img-section {
@@ -131,6 +139,7 @@ nav {
     background-color: rgba(33, 33, 33, 0.7);
     color: var(--color1);
     overflow-y: auto;
+    display: none;
 }
 
 .close-button {
@@ -198,7 +207,7 @@ input[type=text] {
 }
 
 input[type=color]{
-    width: 1.4rem;
+    width: 1.3rem;
     height: 1.5rem;
     border-radius: 50%;
     cursor: pointer;
@@ -225,7 +234,7 @@ input[type=color]::-moz-color-swatch {
     margin: 0 5px 0 5px;
 }
 
-.bg-select {
+.bg-blend-mode {
     background-color: var(--color1);
     height: 2.1rem;
     padding: 4px 9px;
@@ -309,6 +318,7 @@ input[type=range]::-webkit-slider-thumb{
     background-color: rgba(33, 33, 33, 0.7);
     color: var(--color1);
     overflow-y: auto;
+    display: none;
 }
 
 .txt-section-form {

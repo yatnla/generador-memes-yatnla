@@ -41,18 +41,17 @@
 
     <main>
         <section class="meme-section">
-            <div class="meme-container">
+            <div class="meme-container" id="meme-container">
                 <p class="top-txt-meme"> 
                     TOP TEXT 
                 </p>
-                <div class="img-meme-container">
-
+                <div class="img-meme-container" id="img-meme-container">
                 </div>
                 <p class="bottom-txt-meme">
                     BOTTOM TEXT
                 </p>
             </div>
-            <button class="download-button">
+            <button class="download-button" id="download-button">
                 <i class="fa-solid fa-download"></i>
                 Descargar Meme
             </button>
@@ -74,9 +73,9 @@
                 <div class="bg-color-container">
                     <div class="bg-color">
                         <input type="color" id="bg-color" value="#FFFFFF">
-                        <span class="bg-color-value">#FFFFFF</span>
+                        <span class="bg-color-value" id="bg-color-value">#FFFFFF</span>
                     </div>
-                    <select name="fondo" id="fondo" class="bg-select">
+                    <select name="bg-blend-mode" id="bg-blend-mode" class="bg-blend-mode">
                         <option value="unset" selected> Ninguno </option>
                         <option value="lighten"> Aclarar </option>
                         <option value="darken"> Oscurecer </option>
@@ -116,11 +115,11 @@
                         <input type="range" name="saturation" id="saturation" min="100" max="1000" step="10" value="100">
                     </label>
                     <label for="invert"> NEGATIVO
-                        <input type="range" name="invert" id="invert" min="0" max="1" step="0.1" value="1">
+                        <input type="range" name="invert" id="invert" min="0" max="1" step="0.1" value="0">
                     </label>
                 </div>
             </div>
-            <button class="reset-button"> Reestablecer filtros </button>
+            <button class="reset-button" id="reset-button"> Reestablecer filtros </button>
         </form>
     </aside>
 
@@ -231,6 +230,8 @@
         </form>
     </aside>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js" integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="/js/app.js"> </script>
 
 </body>
