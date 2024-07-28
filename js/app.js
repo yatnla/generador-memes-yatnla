@@ -5,6 +5,9 @@ const textSection = document.getElementById('txt-section');
 
 const darkModeButton = document.getElementById('dark-button');
 
+const closeButtonImg = document.getElementById('close-button-img');
+const closeButtonTxt = document.getElementById('close-button-txt');
+
 const memeContainer = document.getElementById('meme-container');
 const downloadButton = document.getElementById('download-button');
 
@@ -78,7 +81,23 @@ textButton.addEventListener('click', () => {
 
 darkModeButton.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
+    downloadButton.classList.toggle('dark-mode-download-button');
+    if (document.body.classList.contains('dark-mode')) {
+        darkModeButton.innerHTML = `<i class="fa-solid fa-sun"></i> Modo Claro`;
+    } else {
+        darkModeButton.innerHTML = `<i class="fa-solid fa-moon"></i> Modo Oscuro`;
+    }
 });
+
+// close button img and txt aside
+
+closeButtonImg.addEventListener('click', () => {
+    imageSection.style.display = 'none';
+})
+
+closeButtonTxt.addEventListener('click', () => {
+    textSection.style.display = 'none';
+})
 
 // canvas section -->
 

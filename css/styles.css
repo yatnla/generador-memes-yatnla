@@ -28,7 +28,7 @@ ul {
 }
 
 .dark-mode {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1000' height='500' preserveAspectRatio='none' viewBox='0 0 1000 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1625%26quot%3b)' fill='none'%3e%3crect width='1000' height='500' x='0' y='0' fill='rgba(33%2c 33%2c 33%2c 0.82)'%3e%3c/rect%3e%3ccircle r='41.666666666666664' cx='594.04' cy='119.67' fill='rgba(255%2c 255%2c 255%2c 0.86)'%3e%3c/circle%3e%3cpath d='M113.7 400.09a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87zM109.87 415.62a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87zM106.04 431.16a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87zM102.21 446.69a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87zM105.82 365.19a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87zM101.99 380.72a5.6 5.6 0 1 0-2.68 10.88 5.6 5.6 0 1 0 2.68-10.88zM98.16 396.26a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87zM94.33 411.79a5.6 5.6 0 1 0-2.68 10.87 5.6 5.6 0 1 0 2.68-10.87z' stroke='rgba(255%2c 255%2c 255%2c 0.87)' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3crect width='127.6' height='127.6' clip-path='url(%26quot%3b%23SvgjsClipPath1626%26quot%3b)' x='478.71' y='383.12' fill='url(%26quot%3b%23SvgjsPattern1627%26quot%3b)' transform='rotate(199.56%2c 542.51%2c 446.92)'%3e%3c/rect%3e%3ccircle r='82.74528405971706' cx='908.17' cy='496.93' fill='rgba(255%2c 255%2c 255%2c 0.87)'%3e%3c/circle%3e%3cpath d='M978.12 299.74a5.6 5.6 0 1 0 1.67-11.08 5.6 5.6 0 1 0-1.67 11.08zM980.51 283.92a5.6 5.6 0 1 0 1.68-11.08 5.6 5.6 0 1 0-1.68 11.08zM982.9 268.1a5.6 5.6 0 1 0 1.68-11.08 5.6 5.6 0 1 0-1.68 11.08zM985.3 252.28a5.6 5.6 0 1 0 1.67-11.08 5.6 5.6 0 1 0-1.67 11.08z' fill='rgba(255%2c 255%2c 255%2c 0.87)'%3e%3c/path%3e%3crect width='264' height='264' clip-path='url(%26quot%3b%23SvgjsClipPath1628%26quot%3b)' x='-37.73' y='18.47' fill='url(%26quot%3b%23SvgjsPattern1629%26quot%3b)' transform='rotate(29.06%2c 94.27%2c 150.47)'%3e%3c/rect%3e%3crect width='122' height='122' clip-path='url(%26quot%3b%23SvgjsClipPath1630%26quot%3b)' x='277.04' y='322.71' fill='url(%26quot%3b%23SvgjsPattern1631%26quot%3b)' transform='rotate(99.5%2c 338.04%2c 383.71)'%3e%3c/rect%3e%3crect width='180' height='180' clip-path='url(%26quot%3b%23SvgjsClipPath1632%26quot%3b)' x='157.62' y='-4.77' fill='url(%26quot%3b%23SvgjsPattern1633%26quot%3b)' transform='rotate(317.74%2c 247.62%2c 85.23)'%3e%3c/rect%3e%3crect width='126.19999999999999' height='126.19999999999999' clip-path='url(%26quot%3b%23SvgjsClipPath1634%26quot%3b)' x='827.41' y='162.25' fill='url(%26quot%3b%23SvgjsPattern1635%26quot%3b)' transform='rotate(321.54%2c 890.51%2c 225.35)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1625'%3e%3crect width='1000' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='12.76' height='12.76' patternUnits='userSpaceOnUse' id='SvgjsPattern1627'%3e%3cpath d='M0 12.76L6.38 0L12.76 12.76' stroke='rgba(43%2c 43%2c 43%2c 0.67)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1626'%3e%3ccircle r='31.9' cx='542.51' cy='446.92'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1629'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(214%2c 214%2c 214%2c 0.67)' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1628'%3e%3ccircle r='66' cx='94.27' cy='150.47'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='12.2' height='12.2' patternUnits='userSpaceOnUse' id='SvgjsPattern1631'%3e%3cpath d='M0 12.2L6.1 0L12.2 12.2' stroke='rgba(255%2c 255%2c 255%2c 0.87)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1630'%3e%3ccircle r='30.5' cx='338.04' cy='383.71'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1633'%3e%3cpath d='M0 6L3 0L6 6' stroke='rgba(255%2c 255%2c 255%2c 0.86)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1632'%3e%3ccircle r='45' cx='247.62' cy='85.23'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='12.62' height='12.62' patternUnits='userSpaceOnUse' id='SvgjsPattern1635'%3e%3cpath d='M0 12.62L6.31 0L12.62 12.62' stroke='rgba(255%2c 255%2c 255%2c 0.86)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1634'%3e%3ccircle r='31.549999999999997' cx='890.51' cy='225.35'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1000' height='500' preserveAspectRatio='none' viewBox='0 0 1000 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask6885%26quot%3b)' fill='none'%3e%3crect width='1000' height='500' x='0' y='0' fill='rgba(33%2c 33%2c 33%2c 1)'%3e%3c/rect%3e%3ccircle r='54.752541450017006' cx='223.41' cy='39.84' fill='rgba(108%2c 108%2c 108%2c 0.67)'%3e%3c/circle%3e%3cpath d='M341.52 94.27L332.39 103.25 321.62 96.32 312.49 105.3 301.73 98.36 292.6 107.35 281.83 100.41M340.7 86.31L331.57 95.29 320.8 88.36 311.67 97.34 300.91 90.41 291.78 99.39 281.01 92.46' stroke='rgba(214%2c 214%2c 214%2c 0.67)' stroke-width='1.68'%3e%3c/path%3e%3crect width='137.4' height='137.4' clip-path='url(%26quot%3b%23SvgjsClipPath6886%26quot%3b)' x='314.63' y='166.57' fill='url(%26quot%3b%23SvgjsPattern6887%26quot%3b)' transform='rotate(283.41%2c 383.33%2c 235.27)'%3e%3c/rect%3e%3cpath d='M980.51 103.99L990.68 111.77 985.32 123.41 995.49 131.19 990.14 142.82 1000.31 150.6 994.95 162.23M972.74 105.92L982.91 113.7 977.56 125.33 987.73 133.11 982.37 144.74 992.54 152.52 987.19 164.16M964.98 107.85L975.15 115.63 969.79 127.26 979.96 135.04 974.61 146.67 984.78 154.45 979.42 166.08' stroke='rgba(255%2c 255%2c 255%2c 0.87)' stroke-width='2.91'%3e%3c/path%3e%3ccircle r='71.82905731698764' cx='328.94' cy='161.25' fill='rgba(255%2c 255%2c 255%2c 0.87)'%3e%3c/circle%3e%3crect width='268.8' height='268.8' clip-path='url(%26quot%3b%23SvgjsClipPath6888%26quot%3b)' x='690.92' y='153.95' fill='url(%26quot%3b%23SvgjsPattern6889%26quot%3b)' transform='rotate(91%2c 825.32%2c 288.35)'%3e%3c/rect%3e%3crect width='91.67999999999999' height='91.67999999999999' clip-path='url(%26quot%3b%23SvgjsClipPath6890%26quot%3b)' x='285.58' y='284.98' fill='url(%26quot%3b%23SvgjsPattern6891%26quot%3b)' transform='rotate(226.96%2c 331.42%2c 330.82)'%3e%3c/rect%3e%3cpath d='M111.42000000000002 176.56 L220.88 221.86L114.66808724878265 250.69191275121736z' fill='rgba(161%2c 161%2c 161%2c 0.67)'%3e%3c/path%3e%3crect width='100.24000000000001' height='100.24000000000001' clip-path='url(%26quot%3b%23SvgjsClipPath6892%26quot%3b)' x='375.42' y='374.97' fill='url(%26quot%3b%23SvgjsPattern6893%26quot%3b)' transform='rotate(231.35%2c 425.54%2c 425.09)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask6885'%3e%3crect width='1000' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='137.4' height='13.74' patternUnits='userSpaceOnUse' id='SvgjsPattern6887'%3e%3crect width='137.4' height='6.87' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 0.87)'%3e%3c/rect%3e%3crect width='137.4' height='6.87' x='0' y='6.87' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath6886'%3e%3ccircle r='34.35' cx='383.33' cy='235.27'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='8.96' height='8.96' patternUnits='userSpaceOnUse' id='SvgjsPattern6889'%3e%3cpath d='M4.48 1L4.48 7.960000000000001M1 4.48L7.960000000000001 4.48' stroke='rgba(255%2c 255%2c 255%2c 0.87)' fill='none' stroke-width='2.6'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath6888'%3e%3ccircle r='67.2' cx='825.32' cy='288.35'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.64' height='7.64' patternUnits='userSpaceOnUse' id='SvgjsPattern6891'%3e%3cpath d='M0 7.64L3.82 0L7.64 7.64' stroke='rgba(255%2c 255%2c 255%2c 0.87)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath6890'%3e%3ccircle r='22.919999999999998' cx='331.42' cy='330.82'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='7.16' height='7.16' patternUnits='userSpaceOnUse' id='SvgjsPattern6893'%3e%3cpath d='M0 7.16L3.58 0L7.16 7.16' stroke='rgba(255%2c 255%2c 255%2c 0.86)' fill='none'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath6892'%3e%3ccircle r='25.060000000000002' cx='425.54' cy='425.09'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
     transition: background-image 0.4s ease-out, color 0.4s ease-out;
 }
 
@@ -60,7 +60,7 @@ header {
 
 nav {
     padding: 0 12px 0 12px;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .nav-generator {
@@ -77,6 +77,13 @@ nav {
     font-size: 1rem;
     font-weight: 300;
     cursor: pointer;
+    padding: 9px;
+}
+
+.nav-list:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: background-color 0.5s ease-in-out;
+    border-radius: 0.5em;
 }
 
 .meme-section {
@@ -133,7 +140,21 @@ nav {
     color: var(--color4);
     background: var(--color2);
     border: 1px solid var(--color2);
-    transition: all 0.3s ease-in-out;  
+    transition: all 0.3s ease-in-out;
+}
+
+.dark-mode-download-button {
+        color: var(--color4);
+        background-color: var(--color2);
+        border: 1px solid var(--color2);
+        box-shadow: 1px 1px 2px #c5c5c5, -1px -1px 2px var(--color4);
+    }
+    
+.dark-mode-download-button:hover{
+        color: var(--color2);
+        background: var(--color4);
+        border: 1px solid var(--color4);
+        transition: all 0.3s ease-in-out;  
 }
 
 .img-section {
@@ -289,8 +310,12 @@ input[type=range]::-webkit-slider-thumb{
     height: 15px;
     border-radius: 100%;
     background-color: var(--color4);
-    cursor: pointer;
+    cursor: grab;
     position: relative;
+}
+
+input[type=range]:hover {
+    opacity: 1;
 }
 
 .reset-button{
@@ -515,6 +540,7 @@ label[for="line-spacing"] > select {
     height: 2.1rem;
     border-radius: 5px;
     padding: 9px;
+    cursor: pointer;
 }
 
 
@@ -544,6 +570,10 @@ label[for="line-spacing"] > select {
         transition: none;
     }
 
+    header {
+        background-color: rgba(33, 33, 33, 0.7);
+        }
+
     .title-meme-generator {
         font-size: 1.7rem;
         font-weight: 600;
@@ -553,7 +583,15 @@ label[for="line-spacing"] > select {
         font-size: 14px;
     }
 
-    header {
-    background-color: rgba(33, 33, 33, 0.7);
+    .close-button {
+        display: block;
+        padding: 9px;
+        color: var(--color1);
+        width: 3rem;
+        height: 3rem;
+        background-color: var(--color4);
+        position: absolute;
+        top: 11px;
+        right: 1rem;
     }
 }
