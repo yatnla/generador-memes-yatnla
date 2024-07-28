@@ -32,7 +32,7 @@
                 <li class="nav-list" id="txt-button">
                     <i class="fa-solid fa-font"></i> Texto 
                 </li>
-                <li class="nav-list"> 
+                <li class="nav-list" id="dark-button"> 
                     <i class="fa-solid fa-moon"></i> Modo oscuro 
                 </li>
             </ul>
@@ -42,12 +42,12 @@
     <main>
         <section class="meme-section">
             <div class="meme-container" id="meme-container">
-                <p class="top-txt-meme"> 
+                <p class="top-txt-meme" id="top-txt-meme"> 
                     TOP TEXT 
                 </p>
                 <div class="img-meme-container" id="img-meme-container">
                 </div>
-                <p class="bottom-txt-meme">
+                <p class="bottom-txt-meme" id="bottom-txt-meme">
                     BOTTOM TEXT
                 </p>
             </div>
@@ -148,15 +148,13 @@
 
             <label for="font" class="font"> FUENTE
                 <select name="font" id="font">
-                    <option value="arial"> Arial </option>
-                    <option value="arial-black">Arial Black</option>
-                    <option value="american-typewriter">American Typewriter</option>
-                    <option value="andale-,mono">Andale Mono</option>
-                    <option value="comic-sans-ms">Comic Sans MS</option>
-                    <option value="helvetica">Helvetica</option>
-                    <option value="impact" selected>Impact</option>
-                    <option value="verdana">Verdana</option>
-                    <option value="times-new-roman">Times New Roman</option>
+                    <option value="Arial"> Arial </option>
+                    <option value="Arial Black">Arial Black</option>
+                    <option value="Comic Sans MS">Comic Sans MS</option>
+                    <option value="Helvetica">Helvetica</option>
+                    <option value="Impact" selected>Impact</option>
+                    <option value="Verdana">Verdana</option>
+                    <option value="Times New Roman">Times New Roman</option>
                 </select>
             </label>
 
@@ -182,15 +180,15 @@
                 <div class="color-txt-container">
                     <h4> COLOR </h4>
                     <label for="color-txt"> 
-                        <input type="color" id="color-txt" name="color-txt" value="#000000">
-                        <span class="color-txt-value">#000000</span>
+                        <input type="color" id="color-txt" name="color-txt" value="#212121">
+                        <span class="color-txt-value" id="color-txt-value">#212121</span>
                     </label>
                 </div>
                 <div class="bg-txt-container">
                     <h4> FONDO </h4>
                     <label for="bg-color-txt">
                         <input type="color" id="bg-color-txt" name="bg-color-txt" value="#FFFFFF">
-                        <span class="bg-color-txt-value">#FFFFFF</span>
+                        <span class="bg-color-txt-value" id="bg-color-txt-value">#FFFFFF</span>
                     </label>
                 </div>
             </div>
@@ -203,17 +201,17 @@
                     <button type="button" class="button-outline" id="none-outline">
                         Ninguno
                     </button>
-                    <button type="button" class="button-outline" id="white-outline">
+                    <button type="button" class="button-outline" id="light-outline">
                         Claro
                     </button>
-                    <button type="button" class="button-outline" id="black-outline">
+                    <button type="button" class="button-outline" id="dark-outline">
                         Oscuro
                     </button>
                 </div>
             </label>
 
             <label for="padding"> ESPACIADO
-                <input type="number" name="padding" id="padding" value="0">
+                <input type="number" name="padding" id="padding" value="0" max="50">
             </label>
 
             <label for="line-spacing">INTERLINEADO
